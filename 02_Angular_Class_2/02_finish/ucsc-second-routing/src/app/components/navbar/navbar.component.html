@@ -1,0 +1,119 @@
+
+
+
+<!--<nav class="navbar navbar-expand-sm navbar-dark bg-info mb-3">
+  &lt;!&ndash;<nav class="navbar navbar-light bg-faded">&ndash;&gt;
+  <div class="container">
+    <a class="navbar-brand" href="/#/">Cook-a-thon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/#/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#/about">About</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a  class="nav-link" href="/#/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#/register">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>-->
+
+
+<!--<nav class="navbar navbar-expand-sm navbar-dark bg-info mb-3">
+  &lt;!&ndash;<nav class="navbar navbar-light bg-faded">&ndash;&gt;
+  <div class="container">
+    <a class="navbar-brand" (click)="goHome()">Cook-a-thon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" (click)="goHome()">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="goAbout()">About</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a  class="nav-link" (click)="goLogin()">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="goRegister()">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>-->
+
+<!--<nav class="navbar navbar-expand-sm navbar-dark bg-info mb-3">
+  &lt;!&ndash;<nav class="navbar navbar-light bg-faded">&ndash;&gt;
+  <div class="container">
+    <a class="navbar-brand" [routerLink]="['home']">Cook-a-thon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink] = "['home']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['about']">About</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a  class="nav-link" [routerLink]="['login']">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['register']">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>-->
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-info mb-3">
+  <!--<nav class="navbar navbar-light bg-faded">-->
+  <div class="container">
+    <a class="navbar-brand" [routerLink]="['home']">Cook-a-thon</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item" [routerLinkActive]="['active']">
+          <a class="nav-link" [routerLink] = "['home']">Home</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']">
+          <a class="nav-link" [routerLink]="['about']">About</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" [routerLinkActive]="['active']">
+          <a  class="nav-link" [routerLink]="['login']">Login</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']">
+          <a class="nav-link" [routerLink]="['register']">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

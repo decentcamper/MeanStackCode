@@ -2,38 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="018c1e77-3e4e-442b-be4a-518a59c1c557" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_03_Project_Structure.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/01_Angular_Class_1/01_start/docs/images/TopLevelFolder.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/app/app.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/app/app.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/app/app.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/app/app.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/app/app.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/assets/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/environments/environment.prod.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/environments/environment.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/main.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/polyfills.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/test.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/tsconfig.app.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/tsconfig.spec.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/typings.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/assets/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/environments/environment.prod.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/environments/environment.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/main.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/polyfills.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/test.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/tsconfig.app.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/tsconfig.spec.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/typings.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FinalApplication/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FinalApplication/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FinalApplication/package.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/.angular-cli.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/e2e/app.e2e-spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/e2e/app.po.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/e2e/tsconfig.e2e.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/how-to-use.txt" afterPath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/how-to-use.txt" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/karma.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/protractor.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/app/app.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/app/app.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/app/app.component.spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/app/app.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/app/app.module.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/assets/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/environments/environment.prod.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/environments/environment.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/main.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/polyfills.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/styles.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/test.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/tsconfig.app.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/tsconfig.spec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/src/typings.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/tsconfig.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/02_finish/first-app/tslint.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_02_Angular_Cli.md" afterPath="$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_02_Angular_Cli.md" />
+      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/01_start/AddingBootStrapToProject.md" afterPath="$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_04_AddingBootStrapToProject" />
+      <change beforePath="$PROJECT_DIR$/01_Angular_Class_1/01_start/AngularCLI.md" afterPath="$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_00_CLI.md" />
+      <change beforePath="$PROJECT_DIR$/AngularCLI.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,46 +62,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01_Angular_01_ReadMe.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_01_ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="navbar.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01_Angular_02_Angular_Cli.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_02_Angular_Cli.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="253">
-                <caret line="162" column="38" lean-forward="false" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1740">
+              <caret line="116" column="10" lean-forward="false" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/01_start/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/home/home.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sty</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,19 +182,39 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_01_ReadMe.md" />
         <option value="$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_02_Angular_Cli.md" />
+        <option value="$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_03_Project_Structure.md" />
+        <option value="$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/index.html" />
+        <option value="$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/home/home.component.html" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/node_modules" />
+    <handled-path value="$PROJECT_DIR$/FinalApplication/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="981" />
+    <option name="width" value="1920" />
+    <option name="height" value="1131" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -169,7 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,43 +291,54 @@
               <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
               <item name="01_Angular_Class_1" type="462c0819:PsiDirectoryNode" />
-              <item name="01_start" type="462c0819:PsiDirectoryNode" />
+              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
               <item name="01_Angular_Class_1" type="462c0819:PsiDirectoryNode" />
               <item name="02_finish" type="462c0819:PsiDirectoryNode" />
+              <item name="ucsc-first-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
               <item name="02_Angular_Class_2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
+              <item name="FinalApplication" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02_Angular_Class_2/01_start" />
+      <recent name="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/10_MongoDB" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/01_Angular_Class_1/02_finish" />
       <recent name="$PROJECT_DIR$/01_Angular_Class_1/01_start" />
+      <recent name="$PROJECT_DIR$/01_Angular_Class_1/01_start/docs/images" />
+      <recent name="$PROJECT_DIR$/01_Angular_Class_1/02_finish" />
+      <recent name="$PROJECT_DIR$/FinalApplication" />
       <recent name="$PROJECT_DIR$/01_Angular_Class_1" />
     </key>
   </component>
@@ -252,7 +368,19 @@
       <option name="presentableId" value="Default" />
       <updated>1522363306301</updated>
       <workItem from="1522363307839" duration="3655000" />
-      <workItem from="1522367889933" duration="228000" />
+      <workItem from="1522367889933" duration="9161000" />
+      <workItem from="1522706272002" duration="21000" />
+      <workItem from="1522706326398" duration="51000" />
+      <workItem from="1522706403541" duration="330000" />
+      <workItem from="1522706750750" duration="62000" />
+      <workItem from="1522706832299" duration="192000" />
+      <workItem from="1522707038565" duration="3157000" />
+      <workItem from="1522823552437" duration="546000" />
+      <workItem from="1523313034904" duration="492000" />
+      <workItem from="1523313547467" duration="65000" />
+      <workItem from="1523313634397" duration="1784000" />
+      <workItem from="1523332227928" duration="3860000" />
+      <workItem from="1523398342968" duration="2309000" />
     </task>
     <task id="LOCAL-00001" summary="Some Changes.">
       <created>1522367916884</created>
@@ -268,25 +396,32 @@
       <option name="project" value="LOCAL" />
       <updated>1522367985301</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="The first App Commit.">
+      <created>1522368121768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522368121768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3883000" />
+    <option name="totallyTimeSpent" value="25685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="981" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1131" extended-state="6" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3031947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2527646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32818532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42099324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27702704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="10" y="445" width="1899" height="287" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -297,9 +432,33 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2268623" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29776976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -314,77 +473,395 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/node_modules/@angular/core/src/application_ref.d.ts" />
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_03_Project_Structure.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_01_ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_02_Angular_Cli.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2430">
-            <caret line="162" column="38" lean-forward="true" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/ReadMe.md" />
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_01_ReadMe.md" />
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_02_Angular_Cli.md" />
+    <entry file="file://$PROJECT_DIR$/ReadMe.md" />
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="420">
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/config/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/helpers/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/models/Idea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/public/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/routes/ideas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/views/ideas/edit.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/views/ideas/index.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/views/about.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/views/layouts/main.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/views/partials/_errors.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/views/partials/_msg.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/views/users/login.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/views/users/register.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/views/ideas/add.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalApplication/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/how-to-use.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/node_modules/@angular/core/src/application_ref.d.ts" />
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/docs/images/ImportedModules.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_01_ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
-          <second_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_01_ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-            <folding />
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_00_CLI.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           </first_editor>
-          <second_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_03_Project_Structure.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_02_Angular_Cli.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="253">
-            <caret line="162" column="38" lean-forward="false" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
-          <second_editor />
+          <second_editor>
+            <markdownNavigatorState>
+              <previewPanelState version="2.5.2" />
+            </markdownNavigatorState>
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_04_AddingBootStrapToProject">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="140">
+            <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="48" selection-end-column="6" />
+          <folding>
+            <marker date="1523395639762" expanded="false" signature="190:712" ph="data:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" column="10" lean-forward="false" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/01_start/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
