@@ -12,6 +12,11 @@ import { SearchComponent } from './components/search/search.component';
 import { LoginComponent } from './components/login/login.component';
 
 import { RegisterComponent } from './components/register/register.component';
+import {RecipeServiceService} from "./services/recipe-service.service";
+import { HttpModule, JsonpModule } from '@angular/http';
+import { RecipeDetailComponent } from './components/recipe-detail/recipe-detail.component';
+
+
 
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -21,6 +26,7 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent },
   {path: 'register', component: RegisterComponent },
   {path: 'about', component: AboutComponent },
+  {path: 'recipeDetail/:recipeID', component: RecipeDetailComponent },
   {path: '**', component: HomeComponent}
 ];
 
@@ -32,14 +38,17 @@ const routes: Routes = [
     AboutComponent,
     SearchComponent,
     LoginComponent,
-
-    RegisterComponent
+    RegisterComponent,
+    RecipeDetailComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes, {useHash: true})
+    HttpModule,
+    JsonpModule,
+
+    RouterModule.forRoot(routes, {useHash: false})
   ],
-  providers: [],
+  providers: [RecipeServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,3 @@
+app_id=180dee57
+app_key=4f5cf80a4658040d1ff64a158b58c978
+https://developer.edamam.com/edamam-docs-recipe-api
