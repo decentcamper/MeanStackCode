@@ -1,70 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="018c1e77-3e4e-442b-be4a-518a59c1c557" name="Default" comment="The code from the previous class.">
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/navbar.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/.angular-cli.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/.editorconfig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/e2e/app.e2e-spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/e2e/app.po.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/e2e/tsconfig.e2e.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/karma.conf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/protractor.conf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.module.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/about/about.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/about/about.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/about/about.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/about/about.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/home/home.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/home/home.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/home/home.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/home/home.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/login/login.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/login/login.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/login/login.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/login/login.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/register/register.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/register/register.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/register/register.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/register/register.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/search/search.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/search/search.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/search/search.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/search/search.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/assets/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/environments/environment.prod.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/environments/environment.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/main.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/polyfills.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/test.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/tsconfig.app.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/tsconfig.spec.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/typings.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/tsconfig.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/tslint.json" />
+    <list default="true" id="018c1e77-3e4e-442b-be4a-518a59c1c557" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/01_start/data/RecipeList.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/app.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/app.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/app.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/app.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/app.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/about/about.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/about/about.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/about/about.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/about/about.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/home/home.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/home/home.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/home/home.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/home/home.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/login/login.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/login/login.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/login/login.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/login/login.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/navbar/navbar.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/navbar/navbar.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/navbar/navbar.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/navbar/navbar.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/recipe-detail/recipe-detail.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/recipe-detail/recipe-detail.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/recipe-detail/recipe-detail.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/recipe-detail/recipe-detail.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/register/register.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/register/register.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/register/register.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/register/register.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/search/search.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/search/search.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/search/search.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/search/search.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/assets/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/environments/environment.prod.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/environments/environment.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/main.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/polyfills.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/test.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/tsconfig.app.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/tsconfig.spec.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/typings.d.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.module.ts" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/recipe-detail/recipe-detail.component.html" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/recipe-detail/recipe-detail.component.html" />
-      <change beforePath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/services/recipe-service.service.ts" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/services/recipe-service.service.ts" />
+      <change beforePath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.html" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.html" />
+      <change beforePath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.html" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.html" />
+      <change beforePath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.ts" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.ts" />
+      <change beforePath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.ts" afterPath="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,18 +69,8 @@
       <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,10 +79,94 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="215">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="69" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-detail.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appKey.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/appKey.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/home/home.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipes.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models/recipes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-details.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models/recipe-details.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecipeList.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/01_start/data/RecipeList.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-details.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/services/recipe-details.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-details.service.spec.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/services/recipe-details.service.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +179,7 @@
       <list>
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="json" />
       </list>
     </option>
   </component>
@@ -161,6 +224,13 @@
         <option value="$PROJECT_DIR$/02_Angular_Class_2/01_start/navbar.component.html" />
         <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/01_start/navbar.component_router.html" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/navbar.component_routerLink.html" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.ts" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models/recipes.ts" />
+        <option value="$PROJECT_DIR$/02_Angular_Class_2/01_start/data/RecipeList.json" />
       </list>
     </option>
   </component>
@@ -178,6 +248,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/node_modules" />
+    <handled-path value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/node_modules" />
     <handled-path value="$PROJECT_DIR$/FinalApplication/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -265,6 +336,13 @@
               <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
               <item name="02_Angular_Class_2" type="462c0819:PsiDirectoryNode" />
+              <item name="01_start" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Angular_Class_2" type="462c0819:PsiDirectoryNode" />
               <item name="02_finish" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -272,24 +350,7 @@
               <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
               <item name="02_Angular_Class_2" type="462c0819:PsiDirectoryNode" />
               <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-              <item name="ucsc-routing-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
-              <item name="02_Angular_Class_2" type="462c0819:PsiDirectoryNode" />
-              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-              <item name="ucsc-routing-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
-              <item name="02_Angular_Class_2" type="462c0819:PsiDirectoryNode" />
-              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-              <item name="ucsc-routing-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ucsc-second-routing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,18 +373,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo" />
       <recent name="$PROJECT_DIR$/02_Angular_Class_2/01_start" />
       <recent name="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src" />
       <recent name="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/models" />
       <recent name="$PROJECT_DIR$/02_Angular_Class_2" />
-      <recent name="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/services" />
+      <recent name="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models" />
+      <recent name="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app" />
+      <recent name="$PROJECT_DIR$/02_Angular_Class_2/01_start" />
       <recent name="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo" />
-      <recent name="$PROJECT_DIR$/01_Angular_Class_1/01_start" />
-      <recent name="$PROJECT_DIR$/01_Angular_Class_1/01_start/docs/images" />
-      <recent name="$PROJECT_DIR$/01_Angular_Class_1/02_finish" />
-      <recent name="$PROJECT_DIR$/FinalApplication" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,7 +427,7 @@
       <workItem from="1523332227928" duration="3860000" />
       <workItem from="1523398342968" duration="19943000" />
       <workItem from="1523561475586" duration="10525000" />
-      <workItem from="1523893329608" duration="5060000" />
+      <workItem from="1523893329608" duration="12903000" />
     </task>
     <task id="LOCAL-00001" summary="Some Changes.">
       <created>1522367916884</created>
@@ -403,11 +464,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523575549803</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="The Complete Code for routing and services.">
+      <created>1523905589472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523905589472</updated>
+    </task>
+    <task id="LOCAL-00007" summary="The templates for the routing.">
+      <created>1523909382351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523909382351</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58904000" />
+    <option name="totallyTimeSpent" value="66747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -467,169 +542,20 @@
     <MESSAGE value="Some Changes." />
     <MESSAGE value="The first App Commit." />
     <MESSAGE value="Services and Navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Services and Navigation" />
+    <MESSAGE value="The Complete Code for routing and services." />
+    <MESSAGE value="The templates for the routing." />
+    <option name="LAST_COMMIT_MESSAGE" value="The templates for the routing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_01_ReadMe.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_00_CLI.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_03_Project_Structure.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_02_Angular_Cli.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/01_start/01_Angular_04_AddingBootStrapToProject">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="140">
-            <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/appKey.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/home/home.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -637,6 +563,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,6 +578,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -672,6 +600,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -687,6 +616,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -694,6 +624,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -826,14 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -855,7 +778,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#0#73#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,14 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
@@ -908,28 +823,162 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-second-routing/src/app/components/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/01_start/navbar.component_routerLink.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/01_start/navbar.component_router.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        <state relative-caret-position="215">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="69" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/appKey.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_Angular_Class_1/02_finish/ucsc-first-app/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models/RecipeItem.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/services/recipe-details.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/services/recipe-details.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models/recipes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models/recipe-details.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/01_start/data/RecipeList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
