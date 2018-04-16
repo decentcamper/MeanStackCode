@@ -1,12 +1,29 @@
 <div class="container">
 
+  <div class="card mb-3">
+    <img class="card-img-top" src= {{recipeDetails.image}} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{recipeDetails.label}}</h5>
 
-  <img src="">
-  <ul class="list-group">
-    <li class="list-group-item">{{recipeDetails.image}}</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Morbi leo risus</li>
-    <li class="list-group-item">Porta ac consectetur ac</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-</div>
+      <ul class="list-group">
+        <li class="list-group-item">{{recipeDetails.healthLabels}}</li>
+      </ul>
+
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let indegLine of recipeDetails.digest">
+          label: {{indegLine.label}}<br>
+          tag : {{indegLine.tag}}<br>
+          schemaOrgTag:  {{indegLine.schemaOrgTag}} <br>
+          total: {{indegLine.total}}<br>
+          hasRDI: {{indegLine.hasRDI}}<br>
+          daily: {{indegLine.daily}}<br>
+          unit : {{indegLine.unit}}<br>
+        </li>
+      </ul>
+    </div>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+
+

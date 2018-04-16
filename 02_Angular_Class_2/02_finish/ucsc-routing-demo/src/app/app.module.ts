@@ -3,19 +3,14 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-
-import {Routes, RouterModule} from "@angular/router";
 import { HomeComponent } from './components/home/home.component';
-import { AboutComponent } from './components/about/about.component';
-import { SearchComponent } from './components/search/search.component';
 import { LoginComponent } from './components/login/login.component';
-
-import { RegisterComponent } from './components/register/register.component';
-import {RecipeServiceService} from "./services/recipe-service.service";
-import { HttpModule, JsonpModule } from '@angular/http';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { RecipeDetailComponent } from './components/recipe-detail/recipe-detail.component';
-
+import { RegisterComponent } from './components/register/register.component';
+import { SearchComponent } from './components/search/search.component';
+import { AboutComponent } from './components/about/about.component';
+import {Routes, RouterModule} from "@angular/router";
 
 
 const routes: Routes = [
@@ -28,26 +23,25 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent },
   {path: 'recipeDetail/:recipeID', component: RecipeDetailComponent },
   {path: '**', component: HomeComponent}
-];
+]
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     HomeComponent,
-    AboutComponent,
-    SearchComponent,
     LoginComponent,
+    NavbarComponent,
+    RecipeDetailComponent,
     RegisterComponent,
-    RecipeDetailComponent
+    SearchComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule,
-    JsonpModule,
-    RouterModule.forRoot(routes, {useHash: false})
+    RouterModule.forRoot(routes, {useHash:true})
   ],
-  providers: [RecipeServiceService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -64,7 +64,7 @@ export class RecipeServiceService {
           .then(
               res => { // Success
                 this.recipeDetails = res.json().map(item => {
-                  return new RecipeItem (
+                  return new RecipeDetail (
                       item.uri,
                       item.label,
                       item.image,
@@ -74,8 +74,13 @@ export class RecipeServiceService {
                       item.calories,
                       item.totalWeight,
                       item.totalTime,
-                      item.healthLabels
-
+                      item.healthLabels,
+                      item.cautions,
+                      item.ingredientLines,
+                      item.ingredients,
+                      item.totalNutrients,
+                      item.totalDaily,
+                      item.digest
                   );
                 });
                 resolve(this.recipeDetails);
