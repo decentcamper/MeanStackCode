@@ -15,6 +15,7 @@ import { RegisterComponent } from './components/register/register.component';
 import {RecipeServiceService} from "./services/recipe-service.service";
 import { HttpModule, JsonpModule } from '@angular/http';
 import { RecipeDetailComponent } from './components/recipe-detail/recipe-detail.component';
+import { CursorLightDirective } from './directives/cursor-light.directive';
 
 
 
@@ -39,7 +40,8 @@ const routes: Routes = [
     SearchComponent,
     LoginComponent,
     RegisterComponent,
-    RecipeDetailComponent
+    RecipeDetailComponent,
+    CursorLightDirective
   ],
   imports: [
     BrowserModule,

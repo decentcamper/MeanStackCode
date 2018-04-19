@@ -1,0 +1,25 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { NgClassDirectiveComponent } from './ng-class-directive.component';
+
+describe('NgClassDirectiveComponent', () => {
+  let component: NgClassDirectiveComponent;
+  let fixture: ComponentFixture<NgClassDirectiveComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ NgClassDirectiveComponent ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(NgClassDirectiveComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
