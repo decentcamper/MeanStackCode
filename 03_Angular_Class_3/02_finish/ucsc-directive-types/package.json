@@ -1,10 +1,10 @@
 {
-  "name": "ucsc-services-demo",
+  "name": "ucsc-directive-demo",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 8080 --live-reload-port 8081",
+    "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",

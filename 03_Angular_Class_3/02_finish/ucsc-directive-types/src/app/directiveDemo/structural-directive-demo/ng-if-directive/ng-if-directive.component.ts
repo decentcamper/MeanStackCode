@@ -21,8 +21,8 @@ import {Component, OnInit} from '@angular/core';
     
   <div *ngIf="isLoggedIn"><p>Hello Recipe Author</p></div>
   <div *ngIf="!isLoggedIn"><p>Hello Guest user</p></div>      
-    <ul>
-      <li *ngFor="let person of people; let i = index">
+    <ul *ngFor="let person of people; let i = index">
+      <li *ngIf="person.country === 'UK'" >
         {{i +1}} {{ person.name }}  ({{person.country}})
       </li>
     </ul>   
