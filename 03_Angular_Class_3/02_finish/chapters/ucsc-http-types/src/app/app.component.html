@@ -1,0 +1,35 @@
+<!--<div class="jumbotron">-->
+<div class="container" style="padding-top: 40px">
+
+  <div class="row">
+    <div class="btn-toolbar">
+      <button class="btn btn-primary" (click)="doGetWithSearchParams()">GET</button>
+      <button class="btn btn-primary" (click)="doPOST()">POST</button>
+      <button class="btn btn-primary" (click)="doPUT()">PUT</button>
+      <button class="btn btn-primary" (click)="doDELETE()">DELETE</button>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="padding-top: 40px">
+  <div class="row">
+    <div class="btn-toolbar">
+
+      <button class="btn btn-warning" (click)="doGETAsPromise()">As Promise</button>
+      <button class="btn btn-warning" (click)="doGETAsPromiseError()">Error as Promise</button>
+      <button class="btn btn-warning" (click)="doGETAsObservableError()">Error as Observable</button>
+    </div>
+  </div>
+</div>
+
+  <div class="container" style="padding-top: 40px">
+    <div class="row">
+      <div class="m-t-1">
+        <button class="btn btn-danger" (click)="doGETWithHeaders()">With Headers</button>
+      </div>
+    </div>
+  </div>
+
+
+
+

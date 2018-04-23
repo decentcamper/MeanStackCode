@@ -3,7 +3,7 @@ import {AfterViewInit, Directive, ElementRef, HostListener, Renderer, Renderer2}
 @Directive({
   selector: '[appImageOverlay]'
 })
-export class ImageOverlayDirective implements AfterViewInit {
+export class ImageOverlayDirective {
   private newDiv: any;
 
 
@@ -15,12 +15,13 @@ export class ImageOverlayDirective implements AfterViewInit {
 
 
   @HostListener('mouseover') onMouseOver() {
-    let part = this.el.nativeElement.querySelector('.card-text');
+    let part = this.el.nativeElement.querySelector('#detailsList');
     this.renderer.setStyle(part, 'display', 'block');
   }
 
   @HostListener('mouseout') onMouseOut() {
-    let part = this.el.nativeElement.querySelector('.card-text');
+    let part = this.el.nativeElement.querySelector('#detailsList');
     this.renderer.setStyle(part, 'display', 'none');
   }
 }
+
