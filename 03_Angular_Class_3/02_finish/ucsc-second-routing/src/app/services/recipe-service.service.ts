@@ -11,11 +11,13 @@ export class RecipeServiceService {
 
  apiRoot: string = `https://api.edamam.com/search`;
   results: RecipeItem [];
+  loading:boolean;
   recipeDetails : RecipeDetail [];
 
 
   constructor(private jsonp: Jsonp) {
     this.results = [];
+    this.loading=false;
 
 
   }

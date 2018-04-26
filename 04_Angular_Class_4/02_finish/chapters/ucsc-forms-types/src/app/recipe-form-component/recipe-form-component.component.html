@@ -1,0 +1,214 @@
+<!--<div class="container" style="padding-top: 10px">
+  <h3>Add Recipe</h3>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="Title">Recipe title</label>
+      <input class="form-control"  id="Title" name="Title" type="text" value="">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">label</label>
+      <input type="text" class="form-control" id="inputPassword4" placeholder="label">
+    </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-12">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-12">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-row">
+  <div class="form-group col-md-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>-->
+
+  <form action="/personalrecipe/submitrecipe/" enctype="multipart/form-data" id="SubmitRecipeForm" method="post" onsubmit="return validateSubmit(SubmitRecipeForm);" class="ng-pristine ng-valid">        <section class="create-recipe" data-ng-init="init('')">
+  <form>
+    <section class="" style="
+        width:60%;
+        clear: both;
+        margin-right: .75rem;
+        margin-bottom: 0;
+        float: right;
+    ">
+    <input data-val="true" data-val-number="The field RecipeImageId must be a number." data-val-required="The RecipeImageId field is required." id="RecipeImageId" name="RecipeImageId" type="hidden" value="0" autocomplete="off">
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <span class="recipeErrorMessage" id="recipeTitle" style="display: none;">Oops — don’t forget a title!</span>
+        <label for="Title">Recipe title</label>
+        <input class="form-control"  id="Title" name="Title" type="text" value="">
+      </div>
+
+
+    <!--<div class="form-row">-->
+      <div class="form-group col-md-6">
+        <span class="recipeErrorMessage" id="recipeIngredients" style="display: none;">Oops — please add the ingredients!</span>
+        <label for="Ingredients">Ingredients</label>
+        <textarea class="form-control" cols="20" id="Ingredients" name="Ingredients" placeholder="Put each ingredient on its own line." rows="2"></textarea>
+      </div>
+    <!--</div>-->
+    </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipeDirections" style="display: none;">Oops — don’t forget the directions!</span>
+          <label for="Directions">Directions</label>
+          <textarea class="form-control" cols="20" id="Directions" name="Directions" placeholder="Put each step on its own line." rows="2"></textarea>
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipeDesc" style="display: none;">Please add a quick description!</span>
+          <label for="Description">Description</label>
+          <textarea class="form-control"  cols="20" id="Description" name="Description" rows="2"></textarea>
+        </div>
+      </div>
+    </section>
+
+    <section class="create-recipe__left-rail" style=" width:34%;
+        position: relative;
+        float: left">
+      <div class="form-row">
+<!--        <span class="recipeErrorMessage" id="recipePhotoUploadFile" style="display: none;">The height or width of the photo you uploaded is too small. Photo size must be no smaller than 960 pixels x 960 pixels.</span>
+        <div class="add-photo">
+          <label class="icon&#45;&#45;picture gray">
+            <input type="file" name="PhotoUploadFile" id="photoUpload" onchange="validateImage(SubmitRecipeForm)">
+          </label>
+          <span class="note_for_user"> (no smaller than 960 X 960)</span>
+        </div>
+ -->
+     <img src="../../assets/images/camera-512.png" alt="..." class="img-thumbnail"> </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipePrepTime" style="display: none;">Preparation time is required.</span>
+          <label for="PrepTime">Prep time</label>
+          <input class="form-control" id="PrepTime" name="PrepTime" type="text" value="">
+        </div>
+
+
+        <!--<div class="form-row">-->
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipeCookTime" style="display: none;">Cooking Time is required.</span>
+          <label for="CookTime">Cook time</label>
+          <input class="form-control" id="CookTime" name="CookTime" type="text" value="">
+        </div>
+        <!--</div>-->
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="ReadyTime">Ready in</label> <span class="italic">(Optional)</span>
+          <input class="form-control" id="ReadyTime" name="ReadyTime" type="text" value="">
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipeServings" style="display: none;">The servings field is required.</span>
+          <span class="recipeErrorMessage number_validation_serving" id="recipeServingsCount" style="display: none;">Enter a number between 1 and 300.</span>
+          <label for="Servings">Number of servings</label>
+          <input class="form-control" id="Servings" name="Servings" type="text" value="">
+        </div>
+      </div>    <div class="form-row">
+
+      <div class="form-group col-md-6">
+        <label for="Yield">Recipe yield</label> <span class="italic">(Optional)</span>
+        <input class="form-control" id="Yield" name="Yield" type="text" value="">
+        </div>
+      </div>
+      <!--<ul class="create-recipe__info stats create-recipe__info__fields">
+        <li class="validation_error_lable">
+
+        </li>
+        <li class="validation_error_lable">
+
+        </li>
+        <li>
+
+        </li>
+        <li class="number_of_servings">
+
+        </li>
+        <li>
+
+        </li>
+      </ul>-->
+    </section>
+
+    <ul class="create-recipe__priv-pub-ka">
+      <li>
+        <label class="radio-lbl">
+          <input data-val="true" data-val-required="The RecipeAccessSpecifier field is required." id="RecipeAccessSpecifier" name="RecipeAccessSpecifier" type="radio" value="Private"><span></span>
+          <span class="radio-lbl__option">Private Recipe <span>Only I can see this</span></span>
+        </label>
+        <label class="radio-lbl">
+          <input id="RecipeAccessSpecifier" name="RecipeAccessSpecifier" type="radio" value="Public"><span></span>
+          <span class="radio-lbl__option">Public recipe <span>Anyone who sees my profile can see this.</span></span>
+        </label>
+        <label class="radio-lbl">
+          <input checked="checked" id="RecipeAccessSpecifier" name="RecipeAccessSpecifier" type="radio" value="PublicAndSubmittedForKA"><span></span>
+          <span class="radio-lbl__option">Public and submit this as a <a href="javascript:void(0);" class="radio-lbl__option__link" ng-click="toggleKADetails()" target="_self"> Kitchen Approved </a> recipe. By choosing yes, you agree to the <a href="http://www.meredith.com/legal/terms" class="radio-lbl__option__link" target="_self">Terms &amp; Conditions</a>.</span>
+        </label>
+      </li>
+      <li>
+        <div class="ka-details ng-hide" ng-show="showKADetails">
+          <h3>What is a Kitchen Approved Recipe?</h3>
+          <p>These are recipes that have gone through Allrecipes editorial review before being published.</p>
+          <ul class="ka-details">
+            <li>Editorial review ensures reliability of each recipe</li>
+            <li>All members have access to these recipes whereas other types can be kept private.</li>
+            <li>Nutrition, scaling, and other tools are exclusive to Kitchen Approved recipes.</li>
+          </ul>
+          <p>In short, a Kitchen Approved Recipe includes all the bells and whistles you've come to depend on in an Allrecipes recipe.</p>
+
+        </div>
+
+
+
+      </li>
+      <li>
+        <div>
+          <input type="submit" name="SubmitRecipe" class="btns-two-small btn-gold" ng-click="personalrecipeopencollection()" value="Save">
+          <a href="/cook/my/" class="btns-two-small" target="_self">Cancel</a>
+        </div>
+      </li>
+    </ul>
+
+
+  </form>
+

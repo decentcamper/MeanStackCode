@@ -11,8 +11,6 @@ import { RegisterComponent } from './components/register/register.component';
 import { SearchComponent } from './components/search/search.component';
 import { AboutComponent } from './components/about/about.component';
 import {Routes, RouterModule} from "@angular/router";
-import { ImageOverlayDirective } from './directives/image-overlay.directive';
-import { HttpClientModule } from '@angular/common/http';
 
 
 const routes: Routes = [
@@ -37,13 +35,11 @@ const routes: Routes = [
     RecipeDetailComponent,
     RegisterComponent,
     SearchComponent,
-    AboutComponent,
-    ImageOverlayDirective
+    AboutComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes, {useHash:true}),
-    HttpClientModule
+    RouterModule.forRoot(routes, {useHash:true})
   ],
   providers: [],
   bootstrap: [AppComponent]

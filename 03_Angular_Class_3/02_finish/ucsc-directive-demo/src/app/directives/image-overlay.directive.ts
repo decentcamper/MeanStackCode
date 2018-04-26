@@ -1,26 +1,23 @@
-import {AfterViewInit, Directive, ElementRef, HostListener, Renderer, Renderer2} from '@angular/core';
+import {Directive, ElementRef, HostListener,  Renderer2} from '@angular/core';
 
 @Directive({
   selector: '[appImageOverlay]'
 })
-export class ImageOverlayDirective implements AfterViewInit {
-  private newDiv: any;
-
-
+export class ImageOverlayDirective {
   constructor(private el: ElementRef,
               private renderer: Renderer2) {
+    renderer.setStyle(el.nativeElement, 'backgroundColor', 'gray');
   }
 
-
-
-
   @HostListener('mouseover') onMouseOver() {
-    let part = this.el.nativeElement.querySelector('.card-text');
+    let part = this.el.nativeElement.querySelector('#detailsList');
     this.renderer.setStyle(part, 'display', 'block');
   }
 
   @HostListener('mouseout') onMouseOut() {
-    let part = this.el.nativeElement.querySelector('.card-text');
+    let part = this.el.nativeElement.querySelector('#detailsList');
     this.renderer.setStyle(part, 'display', 'none');
   }
 }
+
+
