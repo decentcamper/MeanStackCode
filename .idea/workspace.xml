@@ -2,42 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="018c1e77-3e4e-442b-be4a-518a59c1c557" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.module.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.spec.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/assets/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/environments/environment.prod.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/environments/environment.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/main.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/polyfills.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/styles.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/test.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/tsconfig.app.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/tsconfig.spec.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/typings.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/pattern.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-model-driven/form-model-driven.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-model-driven/form-model-driven.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-model-driven/form-model-driven.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-model-driven/form-model-driven.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-template-driven/form-template-driven.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-template-driven/form-template-driven.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-template-driven/form-template-driven.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/nav-bar/nav-bar.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/nav-bar/nav-bar.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/nav-bar/nav-bar.component.spec.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/nav-bar/nav-bar.component.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.css" afterPath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.css" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.component.html" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.component.html" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.module.ts" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.module.ts" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.html" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-template-driven/form-template-driven.component.html" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/index.html" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/index.html" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.html" afterPath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.html" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.module.ts" afterPath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.module.ts" />
       <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.html" afterPath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.html" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/UcscFormsTypes.htm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/UcscFormsTypes_files/bootstrap.min.css" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/assets/UcscFormsTypes_files/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/UcscFormsTypes_files/icon" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/assets/UcscFormsTypes_files/icon" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/UcscFormsTypes_files/inline.bundle.js" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/assets/UcscFormsTypes_files/inline.bundle.js" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/UcscFormsTypes_files/main.bundle.js" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/assets/UcscFormsTypes_files/main.bundle.js" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/UcscFormsTypes_files/polyfills.bundle.js" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/assets/UcscFormsTypes_files/polyfills.bundle.js" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/UcscFormsTypes_files/styles.bundle.js" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/assets/UcscFormsTypes_files/styles.bundle.js" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/UcscFormsTypes_files/vendor.bundle.js" afterPath="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/assets/UcscFormsTypes_files/vendor.bundle.js" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/add-camera.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/add-camera.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/image-upload.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/upload-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.ts" afterPath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.ts" />
+      <change beforePath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/index.html" afterPath="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,28 +39,141 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="recipe-form-component.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.html">
+    <leaf>
+      <file leaf-file-name="form-template-driven.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="72" column="192" lean-forward="false" selection-start-line="72" selection-start-column="192" selection-end-line="72" selection-end-column="192" />
+            <state relative-caret-position="331">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#label#0;n#div#0;n#div#0;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#div#0;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#div#4;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#7012#7017#0" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#label#0;n#div#0;n#div#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#div#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#4;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#8261#8266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-template-driven.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-model-driven.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pattern.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/01_start/pattern.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-template-driven.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-model-driven.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-model-driven.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="125" column="14" lean-forward="false" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#label#0;n#div#0;n#div#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#div#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#4;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#8845#8850#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-reactive-driven.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-reactive-driven/form-reactive-driven.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-reactive-driven.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-reactive-driven/form-reactive-driven.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-model-driven.component.spec.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,9 +193,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sty</find>
-      <find>yield</find>
       <find>span</find>
       <find>f</find>
+      <find>ngModel</find>
+      <find>ng</find>
+      <find>yield</find>
+      <find>dietLabels</find>
+      <find>healthLabels</find>
+      <find>Diet</find>
+      <find>diet</find>
     </findStrings>
     <replaceStrings>
       <replace>yielded</replace>
@@ -105,18 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/01_start/src/navbar.component_routerLink.html" />
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/navbar/navbar.component.html" />
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/components/recipe-detail/recipe-detail.component.ts" />
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/01_start/data/RecipeList.json" />
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models/recipes.ts" />
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/data/RecipeList.json" />
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/services/recipe-details.service.ts" />
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/search/search.component.ts" />
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/components/search/search.component.html" />
-        <option value="$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-second-routing/src/app/components/search/search.component.html" />
-        <option value="$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/index.html" />
         <option value="$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/directiveDemo/component-directive-demo/component-directive/component-directive.component.ts" />
         <option value="$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/directiveDemo/structural-directive-demo/ng-switch-directive/ng-switch-directive.component.html" />
         <option value="$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/directiveDemo/structural-directive-demo/ng-switch-directive/ng-switch-directive.component.ts" />
@@ -148,14 +244,26 @@
         <option value="$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/app/directiveDemo/attribute-directive-demo/ng-style-directive/ng-style-directive.component.ts" />
         <option value="$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-jsonp-demo/src/app/components/search/search.component.ts" />
         <option value="$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-jsonp-demo/src/app/services/recipe-details.service.ts" />
-        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-jsonp-demo/src/app/components/search/form.html" />
-        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/index.html" />
-        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.ts" />
         <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.css" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.ts" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.ts" />
         <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.html" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/index.html" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/nav-bar/nav-bar.component.html" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-template-driven/form-template-driven.component.html" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-model-driven/form-model-driven.component.html" />
         <option value="$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.ts" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/01_start/pattern.txt" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.ts" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.html" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.html" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.css" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.css" />
+        <option value="$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-reactive-driven/form-reactive-driven.component.html" />
       </list>
     </option>
   </component>
@@ -182,9 +290,10 @@
     <handled-path value="$PROJECT_DIR$/FinalApplication/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="46" />
-    <option name="width" value="1918" />
-    <option name="height" value="987" />
+    <option name="x" value="25" />
+    <option name="y" value="23" />
+    <option name="width" value="1876" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -262,62 +371,7 @@
               <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
               <item name="04_Angular_Class_4" type="462c0819:PsiDirectoryNode" />
-              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Angular_Class_4" type="462c0819:PsiDirectoryNode" />
-              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-              <item name="chapters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Angular_Class_4" type="462c0819:PsiDirectoryNode" />
-              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-              <item name="chapters" type="462c0819:PsiDirectoryNode" />
-              <item name="ucsc-forms-types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Angular_Class_4" type="462c0819:PsiDirectoryNode" />
-              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-              <item name="chapters" type="462c0819:PsiDirectoryNode" />
-              <item name="ucsc-forms-types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Angular_Class_4" type="462c0819:PsiDirectoryNode" />
-              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-              <item name="chapters" type="462c0819:PsiDirectoryNode" />
-              <item name="ucsc-forms-types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Angular_Class_4" type="462c0819:PsiDirectoryNode" />
-              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-              <item name="chapters" type="462c0819:PsiDirectoryNode" />
-              <item name="ucsc-forms-types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe-form-component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MeanStackCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MeanStackCode" type="462c0819:PsiDirectoryNode" />
-              <item name="04_Angular_Class_4" type="462c0819:PsiDirectoryNode" />
-              <item name="02_finish" type="462c0819:PsiDirectoryNode" />
-              <item name="chapters" type="462c0819:PsiDirectoryNode" />
-              <item name="ucsc-forms-types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="01_start" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,7 +464,7 @@
       <workItem from="1524777319074" duration="9155000" />
       <workItem from="1524852087216" duration="8084000" />
       <workItem from="1525055511524" duration="15000" />
-      <workItem from="1525067128588" duration="788000" />
+      <workItem from="1525067128588" duration="19125000" />
     </task>
     <task id="LOCAL-00001" summary="Some Changes.">
       <created>1522367916884</created>
@@ -510,17 +564,24 @@
       <option name="project" value="LOCAL" />
       <updated>1525067190387</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Directives code checkin.">
+      <created>1525067929989</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1525067929989</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140225000" />
+    <option name="totallyTimeSpent" value="158562000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1011" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="981" extended-state="6" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32641107" sideWeight="0.5" order="1" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37423688" sideWeight="0.5" order="1" side_tool="true" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -528,7 +589,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32818532" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="719" y="191" width="474" height="675" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26200873" sideWeight="0.49605057" order="9" side_tool="false" content_ui="tabs" x="10" y="445" width="1899" height="287" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27088037" sideWeight="0.49605057" order="9" side_tool="false" content_ui="tabs" x="10" y="445" width="1899" height="287" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -587,151 +648,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-types/src/app/app.component.css" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301050">
-          <caret line="20083" column="4" lean-forward="false" selection-start-line="20083" selection-start-column="4" selection-end-line="20083" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-types/src/app/app.component.spec.ts" />
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-types/src/app/app.component.ts" />
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-types/README.md" />
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-types/src/app/app.component.html" />
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-jsonp-demo/src/app/data/RecipeList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/components/search/search.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/directives/image-overlay.directive.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-jsonp-demo/src/app/directives/image-overlay.directive.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/services/recipe-details.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-http-types/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-second-routing/src/app/services/recipe-service.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/models/recipes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/models/recipe-details.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models/recipe-details.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-services-demo/src/app/models/recipes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6389" column="1" lean-forward="false" selection-start-line="6389" selection-start-column="1" selection-end-line="6389" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/app/directiveDemo/attribute-directive-demo/ng-class-directive/ng-class-directive.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="65" lean-forward="false" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/app/directiveDemo/attribute-directive-demo/ng-style-directive/ng-style-directive.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/01_start/src/app/data/RecipeList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/01_start/appKey.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-jsonp-demo/src/app/models/recipes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-jsonp-demo/src/app/models/recipe-details.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-jsonp-demo/node_modules/@angular/common/http/src/client.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12030">
-          <caret line="807" column="24" lean-forward="false" selection-start-line="807" selection-start-column="24" selection-end-line="807" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-http-jsonp-demo/node_modules/rxjs/src/Observable.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -750,13 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-http-types/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -829,71 +738,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="87" lean-forward="false" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/assets/UcscFormsTypes.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -921,37 +770,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.ts">
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/recipe-form-component/recipe-form-component.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-http-types/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/app/navBar/nav-bar/nav-bar.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#73#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/app/navBar/nav-bar/nav-bar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/app/navBar/nav-bar/nav-bar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="64" lean-forward="false" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/chapters/ucsc-directive-types/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Angular_Class_2/02_finish/ucsc-routing-demo/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/nav-bar/nav-bar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/models/recipes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Angular_Class_3/02_finish/ucsc-directive-demo/src/app/models/recipe-details.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/nav-bar/nav-bar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-template-driven/form-template-driven.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="46" column="49" lean-forward="false" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/form-model-driven/form-model-driven.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/01_start/start_chapter_forms_types/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="72" column="192" lean-forward="false" selection-start-line="72" selection-start-column="192" selection-end-line="72" selection-end-column="192" />
+        <state relative-caret-position="255">
+          <caret line="23" column="103" lean-forward="false" selection-start-line="23" selection-start-column="103" selection-end-line="23" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/recipe-form-component/recipe-form-component.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#73#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/01_start/pattern.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#label#0;n#div#0;n#div#0;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#div#0;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#4;n#section#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#7012#7017#0" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#label#0;n#div#0;n#div#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#div#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#4;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#8261#8266#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-template-driven/form-template-driven.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-model-driven/form-model-driven.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="125" column="14" lean-forward="false" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#3;n#section#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#label#0;n#div#0;n#div#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#div#0;n#div#0;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#4;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#4;n#section#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#8845#8850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-reactive-driven/form-reactive-driven.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Angular_Class_4/02_finish/chapters/ucsc-forms-types/src/app/form-reactive-driven/form-reactive-driven.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

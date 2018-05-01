@@ -1,8 +1,9 @@
 <div class="container" style="padding-top: 10px">
-  <h3>Add Recipe</h3>
-  <form action="" enctype="multipart/form-data" id="SubmitRecipeForm" method="post"
-        onsubmit="return validateSubmit(SubmitRecipeForm);" class="ng-pristine ng-valid">
-    <section class="create-recipe" data-ng-init="init('')">
+  <h3>Add Recipe: Template Driven Form</h3>
+  <!-- <form d$action="" enctype="multipart/form-data" id="SubmitRecipeForm" method="post" onsubmit="" >-->
+
+  <form>
+    <!--<section class="create-recipe">-->
 
       <section class="" style="
         width:60%;
@@ -17,18 +18,16 @@
 
         <div class="form-row">
           <div class="form-group col-md-6">
-            <span class="recipeErrorMessage" id="recipeTitle" style="display: none;">Oops — don’t forget a title!</span>
-            <label for="Title">Recipe title</label>
-            <input class="form-control" id="Title" name="Title" type="text" value="">
+            <span class="recipeErrorMessage" id="recipeTitleSpan" style="display: none;">Oops — don’t forget a title!</span>
+            <label for="label">Recipe title</label>
+            <input class="form-control" id="label" name="label" type="text" value="" >
           </div>
-
-
 
           <div class="form-group col-md-6">
             <span class="recipeErrorMessage" id="recipeIngredients" style="display: none;">Oops — please add the ingredients!</span>
-            <label for="Ingredients">Ingredients</label>
-            <textarea class="form-control" cols="20" id="Ingredients" name="Ingredients"
-                      placeholder="Put each ingredient on its own line." rows="2"></textarea>
+            <label for="ingredientLines">Ingredients</label>
+            <textarea class="form-control" cols="20" id="ingredientLines" name="ingredientLines"
+                      placeholder="Put each ingredient on its own line." rows="2" ></textarea>
           </div>
 
         </div>
@@ -37,63 +36,78 @@
             <span class="recipeErrorMessage" id="recipeDirections" style="display: none;">Oops — don’t forget the directions!</span>
             <label for="Directions">Directions</label>
             <textarea class="form-control" cols="20" id="Directions" name="Directions"
-                      placeholder="Put each step on its own line." rows="2"></textarea>
+                      placeholder="Put each step on its own line." rows="2" ></textarea>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <span class="recipeErrorMessage" id="recipeDietLabels" style="display: none;">Oops — don’t forget the directions!</span>
+            <label for="dietLabels">Diet Labels</label>
+            <textarea class="form-control" cols="20" id="dietLabels" name="dietLabels"
+                      placeholder="Put each label on its own line." rows="2" ></textarea>
           </div>
         </div>
 
 
         <div class="form-row">
           <div class="form-group col-md-6">
+            <span class="recipeErrorMessage" id="recipeCautions"
+                  style="display: none;">Please add a quick description!</span>
+            <label for="cautions">Cautions</label>
+            <textarea class="form-control" cols="20" id="cautions" name="cautions" rows="2" ></textarea>
+          </div>
+
+
+
+          <div class="form-group col-md-6">
             <span class="recipeErrorMessage" id="recipeDesc"
                   style="display: none;">Please add a quick description!</span>
-            <label for="Description">Description</label>
-            <textarea class="form-control" cols="20" id="Description" name="Description" rows="2"></textarea>
+            <label for="healthLabels">Health Labels</label>
+            <textarea class="form-control" cols="20" id="healthLabels" name="healthLabels" rows="2" ></textarea>
           </div>
         </div>
       </section>
 
-      <section class="create-recipe__left-rail" style=" width:34%;
-        position: relative;
-        float: left">
+      <section class="create-recipe__left-rail" style=" width:34%;position: relative; float: left">
         <div class="form-row">
           <div class="form-group col-md-12">
-              <label for="file"
-                     class="">
-                <i class="material-icons" style="font-size:248px;color:#05abe0; background-color: transparent">add_a_photo</i>
-                <input type="file"
-                       id="file" style="display: none"
-                       (change)="handleFileInput($event.target.files)">
-              </label>
+            <label for="file"
+                   class="">
+              <i class="material-icons" style="font-size:248px;color:#007bff; background-color: transparent">add_a_photo</i>
+              <input type="file"
+                     id="file" style="display: none"
+                     (change)="handleFileInput($event.target.files)">
+            </label>
           </div>
         </div>
 
         <div class="form-row">
           <div class="form-group col-md-12">
             <label for="fileName" class="col-form-label">File Name: </label>
-              <span type="text" readonly class="form-control-plaintext" id="fileName" value="" name="fileName" style=" border-bottom: 3px solid grey; display:inline-block;">{{fileName}}</span>
-        </div>
+            <span type="text" readonly class="form-control-plaintext" id="fileName" value="" name="fileName" style=" border-bottom: 3px solid grey; display:inline-block;">{{fileName}}</span>
+          </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <span class="recipeErrorMessage" id="recipePrepTime"
-                  style="display: none;">Preparation time is required.</span>
-            <label for="PrepTime">Prep time</label>
-            <input class="form-control" id="PrepTime" name="PrepTime" type="text" value="">
+                  style="display: none;">calories  is required.</span>
+            <label for="calories">Calories </label>
+            <input class="form-control" id="calories" name="calories" type="text" value="" >
           </div>
 
 
           <!--<div class="form-row">-->
           <div class="form-group col-md-6">
-            <span class="recipeErrorMessage" id="recipeCookTime" style="display: none;">Cooking Time is required.</span>
-            <label for="CookTime">Cook time</label>
-            <input class="form-control" id="CookTime" name="CookTime" type="text" value="">
+            <span class="recipeErrorMessage" id="recipeTotalWeight" style="display: none;">TotalWeight is required.</span>
+            <label for="totalWeight">Total Weight</label>
+            <input class="form-control" id="totalWeight" name="totalWeight" type="text" value="" >
           </div>
           <!--</div>-->
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="ReadyTime">Ready in</label> <span class="italic">(Optional)</span>
-            <input class="form-control" id="ReadyTime" name="ReadyTime" type="text" value="">
+            <label for="totalTime">Ready in</label> <span class="italic">(Optional)</span>
+            <input class="form-control" id="totalTime" name="totalTime" type="text" value="" >
           </div>
         </div>
 
@@ -104,17 +118,17 @@
                   style="display: none;">The servings field is required.</span>
             <span class="recipeErrorMessage number_validation_serving" id="recipeServingsCount" style="display: none;">Enter a number between 1 and 300.</span>
             <label for="Servings">Number of servings</label>
-            <input class="form-control" id="Servings" name="Servings" type="text" value="">
+            <input class="form-control" id="Servings" name="Servings" type="text" value="" >
           </div>
         </div>
         <div class="form-row">
 
           <div class="form-group col-md-6">
-            <label for="Yield">Recipe yield</label> <span class="italic">(Optional)</span>
-            <input class="form-control" id="Yield" name="Yield" type="text" value="">
+            <label for="yield">Recipe yield</label> <span class="italic">(Optional)</span>
+            <input class="form-control" id="yield" name="yield" type="text" value="" >
           </div>
         </div>
-      </section>
+
 
       <div class="form-row">
         <div class="form-group col-md-12">
@@ -148,13 +162,13 @@
 
       <div class="form-row">
         <div class="form-group col-md-12">
-          <input type="submit" name="SubmitRecipe" class="btn btn-success"
-                 ng-click="personalrecipeopencollection()" value="Save">
+          <input type="submit" name="SubmitRecipe" class="btn btn-success" value="Save">
           <a href="/cook/my/" class="btns-two-small" target="_self">Cancel</a>
         </div>
       </div>
+      </section>
 
-
-    </section>
+    <!--</section>-->
   </form>
 </div>
+

@@ -1,7 +1,9 @@
 <div class="container" style="padding-top: 10px">
   <h3>Add Recipe</h3>
-  <form action="" enctype="multipart/form-data" id="SubmitRecipeForm" method="post"
-        onsubmit="return validateSubmit(SubmitRecipeForm);" class="ng-pristine ng-valid">
+ <!-- <form d$action="" enctype="multipart/form-data" id="SubmitRecipeForm" method="post" onsubmit="" >-->
+
+
+  <form (ngSubmit)="onSubmit(recipeItemForm.value)" #recipeItemForm="ngForm">
     <section class="create-recipe" data-ng-init="init('')">
 
       <section class="" style="
@@ -17,9 +19,9 @@
 
         <div class="form-row">
           <div class="form-group col-md-6">
-            <span class="recipeErrorMessage" id="recipeTitle" style="display: none;">Oops — don’t forget a title!</span>
-            <label for="Title">Recipe title</label>
-            <input class="form-control" id="Title" name="Title" type="text" value="">
+            <span class="recipeErrorMessage" id="recipeTitleSpan" style="display: none;">Oops — don’t forget a title!</span>
+            <label for="recipeTitle">Recipe title</label>
+            <input class="form-control" id="recipeTitle" name="recipeTitle" type="text" value="" ngModel>
           </div>
 
 
@@ -28,7 +30,7 @@
             <span class="recipeErrorMessage" id="recipeIngredients" style="display: none;">Oops — please add the ingredients!</span>
             <label for="Ingredients">Ingredients</label>
             <textarea class="form-control" cols="20" id="Ingredients" name="Ingredients"
-                      placeholder="Put each ingredient on its own line." rows="2"></textarea>
+                      placeholder="Put each ingredient on its own line." rows="2" ngModel></textarea>
           </div>
 
         </div>
@@ -37,7 +39,7 @@
             <span class="recipeErrorMessage" id="recipeDirections" style="display: none;">Oops — don’t forget the directions!</span>
             <label for="Directions">Directions</label>
             <textarea class="form-control" cols="20" id="Directions" name="Directions"
-                      placeholder="Put each step on its own line." rows="2"></textarea>
+                      placeholder="Put each step on its own line." rows="2" ngModel></textarea>
           </div>
         </div>
 
@@ -47,7 +49,7 @@
             <span class="recipeErrorMessage" id="recipeDesc"
                   style="display: none;">Please add a quick description!</span>
             <label for="Description">Description</label>
-            <textarea class="form-control" cols="20" id="Description" name="Description" rows="2"></textarea>
+            <textarea class="form-control" cols="20" id="Description" name="Description" rows="2" ngModel></textarea>
           </div>
         </div>
       </section>
@@ -78,7 +80,7 @@
             <span class="recipeErrorMessage" id="recipePrepTime"
                   style="display: none;">Preparation time is required.</span>
             <label for="PrepTime">Prep time</label>
-            <input class="form-control" id="PrepTime" name="PrepTime" type="text" value="">
+            <input class="form-control" id="PrepTime" name="PrepTime" type="text" value="" ngModel>
           </div>
 
 
@@ -86,14 +88,14 @@
           <div class="form-group col-md-6">
             <span class="recipeErrorMessage" id="recipeCookTime" style="display: none;">Cooking Time is required.</span>
             <label for="CookTime">Cook time</label>
-            <input class="form-control" id="CookTime" name="CookTime" type="text" value="">
+            <input class="form-control" id="CookTime" name="CookTime" type="text" value="" ngModel>
           </div>
           <!--</div>-->
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="ReadyTime">Ready in</label> <span class="italic">(Optional)</span>
-            <input class="form-control" id="ReadyTime" name="ReadyTime" type="text" value="">
+            <input class="form-control" id="ReadyTime" name="ReadyTime" type="text" value="" ngModel>
           </div>
         </div>
 
@@ -104,14 +106,14 @@
                   style="display: none;">The servings field is required.</span>
             <span class="recipeErrorMessage number_validation_serving" id="recipeServingsCount" style="display: none;">Enter a number between 1 and 300.</span>
             <label for="Servings">Number of servings</label>
-            <input class="form-control" id="Servings" name="Servings" type="text" value="">
+            <input class="form-control" id="Servings" name="Servings" type="text" value="" ngModel>
           </div>
         </div>
         <div class="form-row">
 
           <div class="form-group col-md-6">
             <label for="Yield">Recipe yield</label> <span class="italic">(Optional)</span>
-            <input class="form-control" id="Yield" name="Yield" type="text" value="">
+            <input class="form-control" id="Yield" name="Yield" type="text" value="" ngModel>
           </div>
         </div>
       </section>
@@ -148,8 +150,7 @@
 
       <div class="form-row">
         <div class="form-group col-md-12">
-          <input type="submit" name="SubmitRecipe" class="btn btn-success"
-                 ng-click="personalrecipeopencollection()" value="Save">
+          <input type="submit" name="SubmitRecipe" class="btn btn-success" value="Save">
           <a href="/cook/my/" class="btns-two-small" target="_self">Cancel</a>
         </div>
       </div>

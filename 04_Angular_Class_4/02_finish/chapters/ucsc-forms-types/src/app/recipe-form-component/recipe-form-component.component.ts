@@ -43,4 +43,8 @@ export class RecipeFormComponentComponent implements OnInit {
     return this.httpClient.post(endpoint, formData)
 
   }
+
+  onSubmit(mediaItem){
+    console.log(mediaItem)
+  }
 }
