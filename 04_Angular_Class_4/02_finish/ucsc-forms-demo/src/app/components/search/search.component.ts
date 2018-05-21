@@ -2,10 +2,13 @@ import { Component, OnInit } from '@angular/core';
 
 
 import {RecipeDetails} from "../../models/recipe-details";
-import {Recipes} from "../../models/recipes";
 import {RecipeDetailsService} from "../../services/recipe-details.service";
 import 'rxjs/add/operator/map';
 import {RecipeItem} from "../../models/recipe-item";
+import {ActivatedRoute, Router} from "@angular/router"
+import {FormControl} from "@angular/forms";
+
+import 'rxjs/Rx';
 
 @Component({
   selector: 'app-search',
@@ -16,8 +19,11 @@ import {RecipeItem} from "../../models/recipe-item";
 export class SearchComponent implements OnInit {
 
   recipes : RecipeDetails[];
+  searchField: FormControl;
+  searches: string[] = [];
 
-  constructor(private recipeService: RecipeDetailsService) { }
+  constructor(private recipeService: RecipeDetailsService,private route: ActivatedRoute,
+  private router: Router) { }
 
   mapRecipes(recipes) :void {
     this.recipes= recipes.hits.map(item => {
@@ -40,24 +46,25 @@ export class SearchComponent implements OnInit {
 
   }
 
-  getRecipes() : void {
+  getRecipes(term:string) : void {
 
+    term = term || '';
 
     /**
      * The Code which fetches the data using the promises...
      */
 
-    this.recipeService.getRecipesThroughPromise("").then(recipes =>{
+    /*this.recipeService.getRecipesThroughPromise(term).then(recipes =>{
          console.log(recipes);
          this.mapRecipes(recipes);
        });
-
+*/
 
     /**
      * The code which uses the observer-subscriber model
      *
      */
-    this.recipeService.getRecipesThroughObservables("").subscribe(recipes => {
+    this.recipeService.getRecipesThroughObservables(term).subscribe(recipes => {
       console.log(recipes);
       this.mapRecipes(recipes)
     });
@@ -65,11 +72,22 @@ export class SearchComponent implements OnInit {
 
   }
 
-
+  onSearch(term: string) {
+    //this.router.navigate(['search', {term: term}]);
+    this.getRecipes(term);
+  }
 
   ngOnInit() {
-      this.getRecipes();
-
+    this.getRecipes('');
+    this.searchField = new FormControl();
+    this.searchField.valueChanges
+      .debounceTime(600)
+      .distinctUntilChanged()
+      .subscribe(term => {
+        this.onSearch(term);
+      });
   }
+
+
 
 }

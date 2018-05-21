@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Recipes} from "../models/recipes";
 import {RecipeDetails} from "../models/recipe-details";
-import {RecipeDetail} from "../../../../ucsc-second-routing/src/app/models/RecipeDetail";
-import {RecipeItem} from "../../../../ucsc-second-routing/src/app/models/RecipeItem";
+
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs/Observable";
 
@@ -56,7 +55,7 @@ export class RecipeDetailsService {
   getRecipesThroughObservables(term): Observable<Object>{
     let searchTerm = term || 'protein';
     let apiURL = `${this.apiRoot}?q=${searchTerm}&app_id=${this.appID}&app_key=${this.appKey}&from=0&to=20&calories=591-722&health=vegetarian`;
-    return this.httpClient.jsonp(apiURL, 'JSONP_CALLBACK');
+    return this.httpClient.get(apiURL);
   }
 
 }

@@ -18,6 +18,7 @@ import { FormReactiveDrivenComponent } from './form-reactive-driven/form-reactiv
 const routes:Routes = [
   {path:'templateDriven', component : FormTemplateDrivenComponent},
   {path:'modelDriven', component : FormModelDrivenComponent},
+  {path:'reactiveDriven', component : FormReactiveDrivenComponent},
   {path: '**', component: FormTemplateDrivenComponent}
 
 ];
