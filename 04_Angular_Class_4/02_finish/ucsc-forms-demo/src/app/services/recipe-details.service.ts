@@ -11,6 +11,7 @@ export class RecipeDetailsService {
   appID ='180dee57';
   appKey ='4f5cf80a4658040d1ff64a158b58c978';
   apiRoot: string = `https://api.edamam.com/search`;
+
   loading:boolean;
 
 
@@ -53,6 +54,12 @@ export class RecipeDetailsService {
 
 
   getRecipesThroughObservables(term): Observable<Object>{
+    let searchTerm = term || 'protein';
+    let apiURL = `${this.apiRoot}?q=${searchTerm}&app_id=${this.appID}&app_key=${this.appKey}&from=0&to=20&calories=591-722&health=vegetarian`;
+    return this.httpClient.get(apiURL);
+  }
+
+  getMyRecipesThroughObservables(term): Observable<Object>{
     let searchTerm = term || 'protein';
     let apiURL = `${this.apiRoot}?q=${searchTerm}&app_id=${this.appID}&app_key=${this.appKey}&from=0&to=20&calories=591-722&health=vegetarian`;
     return this.httpClient.get(apiURL);

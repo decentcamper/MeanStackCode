@@ -14,6 +14,8 @@ import {Routes, RouterModule} from "@angular/router";
 import { ImageOverlayDirective } from './directives/image-overlay.directive';
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { AddRecipeComponent } from './components/add-recipe/add-recipe.component';
+import { MyRecipesComponent } from './components/my-recipes/my-recipes.component';
 
 
 const routes: Routes = [
@@ -24,6 +26,8 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent },
   {path: 'register', component: RegisterComponent },
   {path: 'about', component: AboutComponent },
+  {path: 'addRecipe', component: AddRecipeComponent },
+  {path: 'myRecipes', component: MyRecipesComponent },
   {path: 'recipeDetail/:recipeID', component: RecipeDetailComponent },
   {path: '**', component: HomeComponent}
 ]
@@ -39,7 +43,10 @@ const routes: Routes = [
     RegisterComponent,
     SearchComponent,
     AboutComponent,
-    ImageOverlayDirective
+    ImageOverlayDirective,
+    AddRecipeComponent,
+    MyRecipesComponent,
+
   ],
   imports: [
     BrowserModule,
