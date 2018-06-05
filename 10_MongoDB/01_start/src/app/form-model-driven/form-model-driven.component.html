@@ -1,0 +1,245 @@
+<div class="container" style="padding-top: 10px">
+  <h3>Add Recipe: Model Driven Form </h3>
+  <!-- <form d$action="" enctype="multipart/form-data" id="SubmitRecipeForm" method="post" onsubmit="" >-->
+
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)" novalidate>
+    <!--<section class="create-recipe">-->
+
+    <section class="" style="
+        width:60%;
+        clear: both;
+        margin-right: .75rem;
+        margin-bottom: 0;
+        float: right;
+    ">
+      <input data-val="true" data-val-number="The field RecipeImageId must be a number."
+             data-val-required="The RecipeImageId field is required." id="RecipeImageId" name="RecipeImageId"
+             type="hidden" value="0" autocomplete="off">
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+
+          <label for="label">Recipe title</label>
+          <input class="form-control" id="label" name="label" type="text" value="" formControlName="label">
+
+          <div *ngIf="form.get('label').invalid && (form.get('label').dirty || form.get('label').touched)"
+               class="alert alert-danger">
+            <div *ngIf="form.get('label').errors.required">
+              Name is required.
+            </div>
+            <!-- <div *ngIf="form.get('label').errors.pattern">-->
+            <div *ngIf="label.errors.pattern">
+              Label Cannot have special Characters
+            </div>
+          </div>
+        </div>
+
+
+        <div class="form-group col-md-6">
+          <label for="ingredientLines">Ingredients</label>
+          <textarea class="form-control" cols="20" id="ingredientLines" name="ingredientLines"
+                    placeholder="Put each ingredient on its own line." rows="2"
+                    formControlName="ingredientLines"></textarea>
+          <div
+            *ngIf="form.get('ingredientLines').invalid && (form.get('ingredientLines').dirty || form.get('ingredientLines').touched)"
+            class="alert alert-danger">
+            <div class="recipeErrorMessage" id="recipeIngredients">Oops — please add the ingredients!</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="directions">Directions</label>
+          <textarea class="form-control" cols="20" id="directions" name="directions"
+                    placeholder="Put each step on its own line." rows="2" formControlName="directions"></textarea>
+          <div
+            *ngIf="form.get('directions').invalid && (form.get('directions').dirty || form.get('directions').touched)"
+            class="alert alert-danger">
+            <span class="recipeErrorMessage" id="recipeDirections">Oops — don’t forget the directions!</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+
+          <label for="dietLabels">Diet Labels</label>
+          <textarea class="form-control" cols="20" id="dietLabels" name="dietLabels"
+                    placeholder="Put each label on its own line." rows="2" formControlName="dietLabels"></textarea>
+          <div
+            *ngIf="form.get('dietLabels').invalid && (form.get('dietLabels').dirty || form.get('dietLabels').touched)"
+            class="alert alert-danger">
+            <span class="recipeErrorMessage" id="recipeDietLabels">Oops — don’t forget the directions!</span>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+
+          <label for="cautions">Cautions</label>
+          <textarea class="form-control" cols="20" id="cautions" name="cautions" rows="2"
+                    formControlName="cautions"></textarea>
+          <div *ngIf="form.get('cautions').invalid && (form.get('cautions').dirty || form.get('cautions').touched)"
+               class="alert alert-danger">
+                        <span class="recipeErrorMessage" id="recipeCautions">Please add caution description!</span>
+          </div>
+
+        </div>
+
+
+        <div class="form-group col-md-6">
+
+          <label for="healthLabels">Health Labels</label>
+          <textarea class="form-control" cols="20" id="healthLabels" name="healthLabels" rows="2"
+                    formControlName="healthLabels"></textarea>
+          <div *ngIf="form.get('label').invalid && (form.get('label').dirty || form.get('label').touched)" class="alert alert-danger">
+            <span class="recipeErrorMessage" id="recipeDesc">Please add some health labels!</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="create-recipe__left-rail" style=" width:34%;position: relative; float: left">
+      <div class="form-row" *ngIf="imgNotLoaded">
+        <div class="form-group col-md-12 required">
+          <label for="imgFile"
+                 class="">
+            <i class="material-icons"
+               style="font-size:248px;color:#007bff; background-color: transparent">add_a_photo</i>
+            <input type="file"
+                   name = "imgFile"
+                   id="imgFile" style="display: none"
+                   (change)="handleFileInput($event)">
+          </label>
+          <div *ngIf="form.get('imgFile').invalid "
+               class="alert alert-danger">
+                        <span class="recipeErrorMessage" id="recipeImgDesc">Don't forget to add an image for the recipe!</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="form-row" *ngIf="!imgNotLoaded">
+        <div class="form-group col-md-12">
+         <img [src]="imgPath" [alt]="imgPath" style="width: 248px; height: 248px">
+
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="fileName" class="col-form-label">File Name: </label>
+          <span type="text" readonly class="form-control-plaintext" id="fileName" value="" name="fileName"
+                style=" border-bottom: 3px solid grey; display:inline-block;">{{fileName}}</span>
+
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+
+          <label for="calories">Calories </label>
+          <input class="form-control" id="calories" name="calories" type="text" value="" formControlName="calories">
+          <div *ngIf="form.get('calories').invalid && (form.get('calories').dirty || form.get('calories').touched)"
+               class="alert alert-danger">
+            <span class="recipeErrorMessage" id="recipePrepTime">calories  is required.</span>
+          </div>
+        </div>
+
+
+        <!--<div class="form-row">-->
+        <div class="form-group col-md-6">
+
+          <label for="totalWeight">Total Weight</label>
+          <input class="form-control" id="totalWeight" name="totalWeight" type="text" value=""
+                 formControlName="totalWeight">
+          <div
+            *ngIf="form.get('totalWeight').invalid && (form.get('totalWeight').dirty || form.get('totalWeight').touched)"
+            class="alert alert-danger">
+            <span class="recipeErrorMessage" id="recipeTotalWeight">TotalWeight is required.</span>
+          </div>
+        </div>
+        <!--</div>-->
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="totalTime">Ready in</label> <span class="italic">(Optional)</span>
+          <input class="form-control" id="totalTime" name="totalTime" type="text" value="" formControlName="totalTime">
+          <div *ngIf="form.get('totalTime').invalid && (form.get('totalTime').dirty || form.get('totalTime').touched)"
+               class="alert alert-danger">
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="servings">Number of servings</label>
+          <input class="form-control" id="servings" name="servings" type="text" value="" formControlName="servings">
+          <div *ngIf="servings.invalid"
+               class="alert alert-danger">
+            <div *ngIf="servings.errors as servingErrors">
+              Servings can only be between {{servingErrors.numberOfServings.minServing}} and
+              {{servingErrors.numberOfServings.maxServing}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+
+        <div class="form-group col-md-6">
+          <label for="yield">Recipe yield</label> <span class="italic">(Optional)</span>
+
+          <input class="form-control" id="yield" name="yield" type="text" value="" formControlName="yield">
+          <div *ngIf="form.get('yield').invalid && (form.get('yield').dirty || form.get('yield').touched)"
+               class="alert alert-danger"></div>
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label class="radio-lbl">
+            <input data-val="true" data-val-required="The RecipeAccessSpecifier field is required."
+                   id="RecipeAccessSpecifier1" name="RecipeAccessSpecifier" type="radio" value="Private"><span></span>
+            <span class="radio-lbl__option">Private Recipe <span>Only I can see this</span></span>
+          </label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label class="radio-lbl">
+            <input id="RecipeAccessSpecifier2" name="RecipeAccessSpecifier" type="radio" value="Public"><span></span>
+            <span class="radio-lbl__option">Public recipe <span>Anyone who sees my profile can see this.</span></span>
+          </label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label class="radio-lbl">
+            <input checked="checked" id="RecipeAccessSpecifier3" name="RecipeAccessSpecifier" type="radio"
+                   value="PublicAndSubmittedForKA"><span></span>
+            <span class="radio-lbl__option">Public and submit this as a <a href="javascript:void(0);"
+                                                                           class="radio-lbl__option__link"
+                                                                           ng-click="toggleKADetails()" target="_self"> Kitchen Approved </a> recipe. By choosing yes, you agree to the <a
+              href="http://www.meredith.com/legal/terms" class="radio-lbl__option__link" target="_self">Terms &amp; Conditions</a>.</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <input type="submit" name="SubmitRecipe" class="btn btn-success" value="Save" [disabled]="!form.valid || form.pristine">
+          <a href="/cook/my/" class="btns-two-small" target="_self">Cancel</a>
+        </div>
+      </div>
+    </section>
+
+    <!--</section>-->
+  </form>
+</div>
+

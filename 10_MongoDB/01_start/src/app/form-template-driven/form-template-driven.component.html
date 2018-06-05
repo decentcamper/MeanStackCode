@@ -1,0 +1,189 @@
+<div class="container" style="padding-top: 10px">
+  <h3>Add Recipe: Template Driven Form</h3>
+  <!-- <form d$action="" enctype="multipart/form-data" id="SubmitRecipeForm" method="post" onsubmit="" >-->
+
+  <form (ngSubmit)="onSubmit(recipeItemForm.value)" #recipeItemForm="ngForm">
+    <!--<section class="create-recipe">-->
+
+    <section class="" style="
+        width:60%;
+        clear: both;
+        margin-right: .75rem;
+        margin-bottom: 0;
+        float: right;
+    ">
+      <input data-val="true" data-val-number="The field RecipeImageId must be a number."
+             data-val-required="The RecipeImageId field is required." id="RecipeImageId" name="RecipeImageId"
+             type="hidden" value="0" autocomplete="off">
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipeTitleSpan"
+                style="display: none;">Oops — don’t forget a title!</span>
+          <label for="label">Recipe title</label>
+          <input class="form-control" id="label" name="label" type="text" value="" ngModel #label="ngModel" required
+                 minlength="2" #spy>
+          <br>TODO: remove this: {{spy.className}}
+          <div *ngIf="label.invalid && (label.dirty || label.touched)"
+               class="alert alert-danger">
+            <div *ngIf="label.errors.required">
+              Label is required.
+            </div>
+            <div *ngIf="label.errors.minlength">
+              Label must be at least 4 characters long.
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipeIngredients" style="display: none;">Oops — please add the ingredients!</span>
+          <label for="ingredientLines">Ingredients</label>
+          <textarea class="form-control" cols="20" id="ingredientLines" name="ingredientLines"
+                    placeholder="Put each ingredient on its own line." rows="2" ngModel></textarea>
+        </div>
+
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipeDirections" style="display: none;">Oops — don’t forget the directions!</span>
+          <label for="Directions">Directions</label>
+          <textarea class="form-control" cols="20" id="Directions" name="Directions"
+                    placeholder="Put each step on its own line." rows="2" ngModel></textarea>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipeDietLabels" style="display: none;">Oops — don’t forget the directions!</span>
+          <label for="dietLabels">Diet Labels</label>
+          <textarea class="form-control" cols="20" id="dietLabels" name="dietLabels"
+                    placeholder="Put each label on its own line." rows="2" ngModel></textarea>
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+            <span class="recipeErrorMessage" id="recipeCautions"
+                  style="display: none;">Please add a quick description!</span>
+          <label for="cautions">Cautions</label>
+          <textarea class="form-control" cols="20" id="cautions" name="cautions" rows="2" ngModel></textarea>
+        </div>
+
+
+        <div class="form-group col-md-6">
+            <span class="recipeErrorMessage" id="recipeDesc"
+                  style="display: none;">Please add a quick description!</span>
+          <label for="healthLabels">Health Labels</label>
+          <textarea class="form-control" cols="20" id="healthLabels" name="healthLabels" rows="2" ngModel></textarea>
+        </div>
+      </div>
+    </section>
+
+    <section class="create-recipe__left-rail" style=" width:34%;position: relative; float: left">
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="file"
+                 class="">
+            <i class="material-icons"
+               style="font-size:248px;color:#007bff; background-color: transparent">add_a_photo</i>
+            <input type="file"
+                   id="file" style="display: none"
+                   (change)="handleFileInput($event.target.files)">
+          </label>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="fileName" class="col-form-label">File Name: </label>
+          <span type="text" readonly class="form-control-plaintext" id="fileName" value="" name="fileName"
+                style=" border-bottom: 3px solid grey; display:inline-block;">{{fileName}}</span>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+            <span class="recipeErrorMessage" id="recipePrepTime"
+                  style="display: none;">calories  is required.</span>
+          <label for="calories">Calories </label>
+          <input class="form-control" id="calories" name="calories" type="text" value="" ngModel>
+        </div>
+
+
+        <!--<div class="form-row">-->
+        <div class="form-group col-md-6">
+          <span class="recipeErrorMessage" id="recipeTotalWeight" style="display: none;">TotalWeight is required.</span>
+          <label for="totalWeight">Total Weight</label>
+          <input class="form-control" id="totalWeight" name="totalWeight" type="text" value="" ngModel>
+        </div>
+        <!--</div>-->
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="totalTime">Ready in</label> <span class="italic">(Optional)</span>
+          <input class="form-control" id="totalTime" name="totalTime" type="text" value="" ngModel>
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+            <span class="recipeErrorMessage" id="recipeServings"
+                  style="display: none;">The servings field is required.</span>
+          <span class="recipeErrorMessage number_validation_serving" id="recipeServingsCount" style="display: none;">Enter a number between 1 and 300.</span>
+          <label for="Servings">Number of servings</label>
+          <input class="form-control" id="Servings" name="Servings" type="text" value="" ngModel>
+        </div>
+      </div>
+      <div class="form-row">
+
+        <div class="form-group col-md-6">
+          <label for="yield">Recipe yield</label> <span class="italic">(Optional)</span>
+          <input class="form-control" id="yield" name="yield" type="text" value="" ngModel>
+        </div>
+      </div>
+
+
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label class="radio-lbl">
+            <input data-val="true" data-val-required="The RecipeAccessSpecifier field is required."
+                   id="RecipeAccessSpecifier1" name="RecipeAccessSpecifier" type="radio" value="Private"><span></span>
+            <span class="radio-lbl__option">Private Recipe <span>Only I can see this</span></span>
+          </label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label class="radio-lbl">
+            <input id="RecipeAccessSpecifier2" name="RecipeAccessSpecifier" type="radio" value="Public"><span></span>
+            <span class="radio-lbl__option">Public recipe <span>Anyone who sees my profile can see this.</span></span>
+          </label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label class="radio-lbl">
+            <input checked="checked" id="RecipeAccessSpecifier3" name="RecipeAccessSpecifier" type="radio"
+                   value="PublicAndSubmittedForKA"><span></span>
+            <span class="radio-lbl__option">Public and submit this as a <a href="javascript:void(0);"
+                                                                           class="radio-lbl__option__link"
+                                                                           ng-click="toggleKADetails()" target="_self"> Kitchen Approved </a> recipe. By choosing yes, you agree to the <a
+              href="http://www.meredith.com/legal/terms" class="radio-lbl__option__link" target="_self">Terms &amp; Conditions</a>.</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <input type="submit" name="SubmitRecipe" class="btn btn-success" value="Save">
+          <a href="/cook/my/" class="btns-two-small" target="_self">Cancel</a>
+        </div>
+      </div>
+    </section>
+
+    <!--</section>-->
+  </form>
+</div>
+
