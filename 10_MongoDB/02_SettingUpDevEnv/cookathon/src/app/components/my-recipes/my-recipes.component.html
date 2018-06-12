@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-4" *ngFor="let recipe of recipes" >
+      <div class="card border-secondary mb-3">
+        <div id="imageHolder">
+          <img class="card-img-top img-responsive " src={{recipe.image}} alt="Card image cap">
+
+        </div>
+        <div class="card-body">
+          <!--<h5 class="card-title">{{recipe.label}}</h5>-->
+
+        <ul class="list-group list-group-flush" id="detailsList" >
+          <li class="list-group-item">Name : {{recipe.label}}</li>
+          <li class="list-group-item">Calories: {{recipe.calories|number}}</li>
+          <li class="list-group-item">Total Weight: {{recipe.totalWeight|number}}</li>
+          <li class="list-group-item">Total Time : {{recipe.totalTime | number}}  minutes</li>
+          <li class="list-group-item"># : {{recipe.healthLabels }} </li>
+        </ul>
+        </div>
+        <div class="card-footer btn-toolbar">
+
+          <a [routerLink]="['/recipeDetail', recipe.uri]" class="btn btn-primary btn-sm" style="margin-right: 150px">Details</a>
+          <a  class="btn btn-danger btn-sm" (click)="removeRecipe(recipe._id)">Delete</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

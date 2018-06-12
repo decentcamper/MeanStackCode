@@ -1,12 +1,12 @@
 {
-  "name": "vidjot",
+  "name": "cookathon",
   "version": "1.0.0",
-  "description": "App to create video ideas",
+  "description": "App to create Recipes",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Brad Traversy",
+  "author": "Vivek Sharma",
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.4"
