@@ -37,7 +37,9 @@ export class SearchComponent implements OnInit {
         item.recipe.calories,
         item.recipe.totalWeight,
         item.recipe.totalTime,
-        item.recipe.healthLabels
+        item.recipe.healthLabels,
+        '00000'
+
 
       );
     });
