@@ -11,6 +11,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { SearchComponent } from './components/search/search.component';
 import { AboutComponent } from './components/about/about.component';
 import {Routes, RouterModule} from "@angular/router";
+import { FormsModule } from '@angular/forms';
 
 
 const routes: Routes = [
@@ -39,6 +40,7 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(routes, {useHash:true})
   ],
   providers: [],

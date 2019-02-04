@@ -15,14 +15,15 @@ import {RecipeDetailsService} from "../../services/recipe-details.service";
 export class SearchComponent implements OnInit {
 
   recipes : RecipeDetails[];
+  listFilter:string;
 
   constructor(private recipeService: RecipeDetailsService) { }
 
 
   getRecipes() : void {
     this.recipeService.getRecipes().then(movies =>{
-        this.recipes = movies
-       console.log(this.recipes)
+        this.recipes = movies;
+       console.log(this.recipes);
     }); // the TS allows this nice little syntax to acheive this
   }
 
